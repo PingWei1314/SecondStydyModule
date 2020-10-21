@@ -17,12 +17,12 @@ uploadArchives {
             pom.groupId = 'com.pingwei.second_module' // 唯一标识（通常为模块包名，也可以任意）
 
             //指定maven仓库url todo 请改为自己的maven服务器地址、账号密码
-            snapshotRepository(url: 'http://jitpack.io/maven-snapshots/') {
-                authentication(userName: '1612328054@qq.com', password: '1n9y9w2413')
+            snapshotRepository(url: 'http://xxx/maven-snapshots/') {
+                authentication(userName: '***', password: '***')
             }
 
-            repository(url: 'http://jitpack.io/maven-releases/') {
-                authentication(userName: '1612328054@qq.com', password: '1n9y9w2413')
+            repository(url: 'http://xxx/maven-releases/') {
+                authentication(userName: '***', password: '***')
             }
         }
     }
